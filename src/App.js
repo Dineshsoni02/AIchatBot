@@ -7,7 +7,6 @@ import user from "./user.png";
 
 function App() {
   const SECRET_KEY = process.env.REACT_APP_OSI_KEY;
-  console.log(SECRET_KEY);
   const [inputMsg, setInputMsg] = useState(" ");
   const [processing, setProcessing] = useState(false);
   const [messages, setMessages] = useState([
